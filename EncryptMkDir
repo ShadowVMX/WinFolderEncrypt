@@ -1,0 +1,54 @@
+#!/bin/bash
+###########
+#This Tool is made by ShadowPriestVMX.
+###########
+
+
+if [[ -z $1 ]] || [[ -z $2 ]] || [[ -z $3 ]] || [[ -z $4 ]] ; then
+echo " "
+echo "$(tput setaf 1)--help for information."
+echo " "
+echo "$(tput setaf 2)[+] Version 0.5.0"
+echo " "
+echo "$(tput setaf 7)https://github.com/ShadowPriestVMX."
+echo " "
+fi
+
+case $1 in
+        ("--help")
+                   echo " "
+                   echo "_________________________________________________________"
+                   echo "_________________________________________________________"
+                   echo " "
+                   echo "$(tput setaf 2)[+] Encrypt your own directory in windows."
+                   echo "$(tput setaf 7) "
+                   echo "[OPTIONS]"
+                   echo ""
+                   echo "-n [Username] --> You can find it in /mnt/c/Users/[USERNAME]."
+                   echo ""
+                   echo "-d [Directory Name] --> You should to create it first."
+                   echo ""
+                   echo "$(tput setaf 1)[Encrypt] --> [*]EncryptMkDir -n [Username] -e [D.Name]"
+                   echo ""
+                   echo "[Desencrypt] --> [*]EncryptMkDir -n [Username] -d [D.Name]"
+                   echo "$(tput setaf 7)"
+                   echo "_________________________________________________________"
+                   echo "_________________________________________________________"
+                   echo " "
+                ;;
+
+
+        ("-n") cd /mnt/c/Users/$2/Desktop
+        ;;
+esac
+
+case $3 in
+        ("-e") mv /mnt/c/Users/$2/Desktop/$4/ ...
+        ;;
+        ("-d") mv /mnt/c/Users/$2/Desktop/.../ $4
+        ;;
+esac
+
+
+
+
