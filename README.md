@@ -15,9 +15,8 @@ You have to execute it with Linux Virtualized in Windows.
 ----------------------------------------------------------
 
 
-__________________________________________________
-|*If u don't have WSL2 you can install it from cmd:|
-|__________________________________________________|
+
+*If u don't have WSL2 you can install it from cmd:
 
 
 1- wsl --instal
