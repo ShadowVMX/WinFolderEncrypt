@@ -1,7 +1,7 @@
 ### WinFolderEncrypt ###
 
 
-You can use it for encrypt your folders in Windows Operative System.
+You can use it for "encrypt" your folders in Windows Operative System.
 
 You just have to follow the instructions.
 
