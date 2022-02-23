@@ -34,4 +34,12 @@ You have to execute it with Linux Virtualized in Windows.
 7- git clone https://github.com/ShadowPriestVMX/WinFolderEncrypt
   
   
-  Thanks.
+  ___________________________________________________________________
+  ___________________________________________________________________
+  
+### Actually, this tool needs the folder in Desktop ###
+ 
+ I'll update it for the next version for the whole system.
+ You actually can use it in Desktop, remember that u can't move it after the "encrypt".
+ 
+ Thanks.
