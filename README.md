@@ -19,19 +19,17 @@ You have to execute it with Linux Virtualized in Windows.
 *If u don't have WSL2 you can install it from cmd:
 
 
-1- wsl --instal
+1- Install ubuntu from --> *Microsoft Store* <--(Free)
 
-2- Install ubuntu from --> *Microsoft Store* <--(Free)
+2- wsl --install -d ubuntu
 
-3- wsl --list --online for check distributions.
-
-4- wsl --install -d <DistroName> for install it.
+3- wsl --list for check distributions.
   
-5- wsl for run it.
+4- wsl for run it.
  
-6- apt install git clone
+5- apt install git clone
   
-7- git clone https://github.com/ShadowPriestVMX/WinFolderEncrypt
+6- git clone https://github.com/ShadowVMX/WinFolderEncrypt
   
   
   ___________________________________________________________________
