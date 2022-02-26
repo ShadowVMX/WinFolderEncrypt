@@ -35,9 +35,28 @@ You have to execute it with Linux Virtualized in Windows.
   ___________________________________________________________________
   ___________________________________________________________________
   
-### Actually, this tool needs the folder in Desktop ###
+### Actually, this tool needs the folder in Desktop ### [0.5.0]
  
  I'll update it for the next version for the whole system.
  You actually can use it in Desktop, remember that u can't move it after the "encrypt".
  
  Thanks.
+ 
+  ___________________________________________________________________
+  ___________________________________________________________________
+  
+  ### Actually, this tool needs Names without spaces ### [0.6.0]
+  
+  With this new update, you can set the whole path of the folder. Even I can find it if you set the correct name.
+  Made for different disks like C-D-E-F-G-H. 
+  It's going to encrypt and disappear because it's gonna hide on 2º plane.
+  
+  ### DON'T FORGET THE NAME OF YOUR FOLDER, IF NOT, YOUR ARE GOING TO LOSE IT. ###
+  
+  It means that you have to decrypt calling by it's name.
+  
+  Thanks.
+  
+  
+  
+  
