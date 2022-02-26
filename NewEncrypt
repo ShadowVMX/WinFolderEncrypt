@@ -1,0 +1,140 @@
+#!/usr/bin/bash
+#Made by ShadowVMX
+
+#Case with --help
+
+case $1 in
+           ("--help")
+                echo " "
+                echo "$(tput setaf 2)[*] You can know the location of your Folder but I'm going to look for it."
+                echo " "
+                echo -n "- If location is " ;echo -n "$(tput setaf 1)C:/" ;echo "$(tput setaf 2),you have to set it."
+                echo " "
+                echo "- If location is D or another one, you just have to set like 'c', it's the same."
+                echo " "
+                echo -n "- The last thing that you have to put is the $(tput setaf 1)" ; echo -n " SAME " ; echo "$(tput setaf 2) name of your folder."
+                echo " "
+                echo "_________________________________________________________________________________________________________________________________"
+                echo " "
+                echo "- ***** You can't use spaces. *****"
+                echo "$(tput setaf 14)"
+                echo "_________________________________________________________________________________________________________________________________"
+                echo " "
+                echo "[*] NewEncrypt -d c --> I'll encrypt folder in C."
+                echo " "
+                echo "[*] NewEncrypt -d d --> I'll encrypt folder in D."
+                echo " "
+                echo "[*] NewEncrypt -d e --> I'll encrypt folder in E."
+                echo " "
+                echo "Max. 6 disks, it means {c,d,e,f,g,h}"
+                echo " "
+                echo "You have to press ctrl+c if you want to set the path, if you don't use ctrl+c u can't set it."
+                echo " "
+            ;;
+
+
+
+#Case $1 parameter it's empty, you need to set the help for the tool.
+
+
+            ("")echo " "
+                echo "$(tput setaf 2)[+] EncryptMkDir Version 0.6.0"
+                echo " "
+                echo "$(tput setaf 14)[*] More information --> --help"
+                echo " "
+                echo "$(tput setaf 5)[+] Made By ShadowVMX."
+                echo " "
+                echo "[+] https://github.com/ShadowVMX"
+                echo " "
+                echo "[+] https://www.linkedin.com/in/juanma-coello-romero-757280226/"
+                echo "$(tput setaf 14) "
+             ;;
+esac
+
+#Function Detection
+
+trap findIt SIGINT
+
+function findIt() {
+echo " "
+read -p "Copy the path and paste it right here --> " pathoffolder
+echo " "
+read -p "Do you want to encrypt or Decrypt (E/D): " encry
+if [[ $encry = "E" ]] ; then
+mv $pathoffolder ...
+elif [[ $encry = "D" ]] ; then
+mv ... $pathoffolder
+else
+echo "Nothing to do."
+fi
+}
+
+
+
+#1.DiskName \/ [If C do this + username, else do that]
+#2. Folder name.
+#3. Encrypt or Decrypt.
+
+
+#NewEncrypt -D $2 ¿User? ls -l.
+
+case $1 in
+        ("-d") if [[ $2 = "c" ]] ; then
+                read -p "Name of the folder [SAME name] --> " fname
+                echo " "
+                echo "We are going to look for your folder."
+                echo " "
+                echo "Press ctrl+c If u see the path of your folder."
+                echo " "
+                echo "If you know the path just press ctrl+c and set it"
+                find /mnt/c/ -name "$fname" 2> /dev/null
+                elif [[ $2 = "d" ]] ; then
+                read -p "Name of the folder [SAME name] --> " fname
+                echo " "
+                echo "We are going to look for your folder."
+                echo " "
+                echo "Press ctrl+c If u see the path of your folder."
+                echo " "
+                echo "If you know the path just press ctrl+c and set it"
+                find /mnt/d/ -name "$fname" 2> /dev/null
+                elif [[ $2 = "e" ]] ; then
+                read -p "Name of the folder [SAME name] --> " fname
+                echo " "
+                echo "We are going to look for your folder."
+                echo " "
+                echo "Press ctrl+c If u see the path of your folder."
+                echo " "
+                echo "If you know the path just press ctrl+c and set it"
+                find /mnt/e/ -name "$fname" 2> /dev/null
+                elif [[ $2 = "f" ]] ; then
+                read -p "Name of the folder [SAME name] --> " fname
+                echo " "
+                echo "We are going to look for your folder."
+                echo " "
+                echo "Press ctrl+c If u see the path of your folder."
+                echo " "
+                echo "If you know the path just press ctrl+c and set it"
+                find /mnt/f/ -name "$fname" 2> /dev/null
+                elif [[ $2 = "g" ]] ; then
+                read -p "Name of the folder [SAME name] --> " fname
+                echo " "
+                echo "We are going to look for your folder."
+                echo " "
+                echo "Press ctrl+c If u see the path of your folder."
+                echo " "
+                echo "If you know the path just press ctrl+c and set it"
+                find /mnt/g/ -name "$fname" 2> /dev/null
+                elif [[ $2 = "h" ]] ; then
+                read -p "Name of the folder [SAME name] --> " fname
+                echo " "
+                echo "We are going to look for your folder."
+                echo " "
+                echo "Press ctrl+c If u see the path of your folder."
+                echo " "
+                echo "If you know the path just press ctrl+c and set it"
+                find /mnt/h/ -name "$fname" 2> /dev/null
+                else
+                echo "Max 6 types of diskname, thanks."
+                fi
+                ;;
+esac
