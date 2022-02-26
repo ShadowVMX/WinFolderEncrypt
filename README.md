@@ -52,7 +52,9 @@ You have to execute it with Linux Virtualized in Windows.
   ### NewEncrypt ###
   
   With this new update, you can set the whole path of the folder. Even I can find it if you set the correct name.
+  
   Made for different disks like C-D-E-F-G-H. 
+  
   It's going to encrypt and disappear because it's gonna hide on 2º plane.
   
   ### DON'T FORGET THE NAME OF YOUR FOLDER, IF NOT, YOUR ARE GOING TO LOSE IT. ###
