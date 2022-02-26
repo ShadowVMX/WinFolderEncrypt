@@ -35,7 +35,9 @@ You have to execute it with Linux Virtualized in Windows.
   ___________________________________________________________________
   ___________________________________________________________________
   
-### Actually, this tool needs the folder in Desktop ### [0.5.0]
+### Actually, this tool needs the folder in Desktop ### [0.5.0] 
+
+### EncryptMkDir ###
  
  I'll update it for the next version for the whole system.
  You actually can use it in Desktop, remember that u can't move it after the "encrypt".
@@ -46,6 +48,8 @@ You have to execute it with Linux Virtualized in Windows.
   ___________________________________________________________________
   
   ### Actually, this tool needs Names without spaces ### [0.6.0]
+  
+  ### NewEncrypt ###
   
   With this new update, you can set the whole path of the folder. Even I can find it if you set the correct name.
   Made for different disks like C-D-E-F-G-H. 
