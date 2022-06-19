@@ -8,7 +8,7 @@ if [[ -z $1 ]] || [[ -z $2 ]] || [[ -z $3 ]] || [[ -z $4 ]] ; then
 echo " "
 echo "$(tput setaf 1)--help for information."
 echo " "
-echo "$(tput setaf 2)[+] Version 0.5.0"
+echo "$(tput setaf 2)[+] Version 2.3"
 echo " "
 echo "$(tput setaf 7)https://github.com/ShadowVMX"
 echo " "
