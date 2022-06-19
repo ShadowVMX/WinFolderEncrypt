@@ -29,3 +29,12 @@ Recuerda que para poder usar la herramienta, las carpetas han de estar en el **D
 Encrypt -n NombreUsuario -e NombredeCarpeta --> encriptar.
 
 Encrypt -n NombreUsuario -d NombredeCarpeta --> desencriptar.
+
+## A tener en cuenta:
+
+-Debes de saber que los nombres de carpetas no DEBEN de contener ningún espacio, sino, fallará.
+
+-La herramienta está hecha para que a través del GUI sea imposible acceder a los datos de las carpetas pero, a través del CLI.. La cosa cambia.
+
+
+
