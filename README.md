@@ -6,3 +6,7 @@ EncryptMkDir es una herramienta desarrollada en Bash para Windows en WSL2 que ti
 
 Por otro lado, la misma carpeta no podrá ser eliminada de ninguna forma puesto que el sistema operativo no tendrá acceso a la misma.
 
+## Instalación de WSL2 a través de Script en .bat
+
+
+
