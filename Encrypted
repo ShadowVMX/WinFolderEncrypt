@@ -1,6 +1,6 @@
 #!/bin/bash
 ###########
-#This Tool is made by ShadowPriestVMX.
+#This Tool has been made by ShadowVMX.
 ###########
 
 
@@ -8,7 +8,7 @@ if [[ -z $1 ]] || [[ -z $2 ]] || [[ -z $3 ]] || [[ -z $4 ]] ; then
 echo " "
 echo "$(tput setaf 1)--help for information."
 echo " "
-echo "$(tput setaf 2)[+] Version 2.3"
+echo "$(tput setaf 2)[+] Version 0.5.0"
 echo " "
 echo "$(tput setaf 7)https://github.com/ShadowPriestVMX."
 echo " "
@@ -28,9 +28,9 @@ case $1 in
                    echo ""
                    echo "-d [Directory Name] --> You should to create it first."
                    echo ""
-                   echo "$(tput setaf 1)[Encrypt] --> [*]EncryptMkDir -n [Username] -e [D.Name]"
+                   echo "$(tput setaf 1)[Encrypt] --> [*]Encrypted -n [Username] -e [D.Name]"
                    echo ""
-                   echo "[Desencrypt] --> [*]EncryptMkDir -n [Username] -d [D.Name]"
+                   echo "[Desencrypt] --> [*]Encrypted -n [Username] -d [D.Name]"
                    echo "$(tput setaf 7)"
                    echo "_________________________________________________________"
                    echo "_________________________________________________________"
@@ -48,6 +48,8 @@ case $3 in
         ("-d") mv /mnt/c/Users/$2/Desktop/.../ $4
         ;;
 esac
+
+
 
 
 
