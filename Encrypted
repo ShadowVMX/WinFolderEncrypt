@@ -10,7 +10,7 @@ echo "$(tput setaf 1)--help for information."
 echo " "
 echo "$(tput setaf 2)[+] Version 0.5.0"
 echo " "
-echo "$(tput setaf 7)https://github.com/ShadowPriestVMX."
+echo "$(tput setaf 7)https://github.com/ShadowVMX"
 echo " "
 fi
 
