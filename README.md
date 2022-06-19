@@ -6,7 +6,26 @@ EncryptMkDir es una herramienta desarrollada en Bash para Windows en WSL2 que ti
 
 Por otro lado, la misma carpeta no podrá ser eliminada de ninguna forma puesto que el sistema operativo no tendrá acceso a la misma.
 
-## Instalación de WSL2 a través de Script en .bat
+## Instalación de WSL2 a través de Script en .bat:
 
+Para llevar a cabo el uso de Encrypted debemos de tener instalado en nuestro sistema --> WSL v2.
 
+Para instalar WSL2 debemos de ejecutar <wsl.bat> desde nuestro CMD y seguir todos los pasos que se proporcionan.
 
+## Una vez se ha instalado el wsl: 
+
+git clone https://github.com/ShadowVMX/WinFolderEncrypt.git
+
+cd WinFolderEncrypt
+
+chmod +x Encrypted
+
+cp Encrypted /usr/bin/
+
+## Uso:
+
+Recuerda que para poder usar la herramienta, las carpetas han de estar en el **DESKTOP**.
+
+Encrypt -n NombreUsuario -e NombredeCarpeta --> encriptar.
+
+Encrypt -n NombreUsuario -d NombredeCarpeta --> desencriptar.
