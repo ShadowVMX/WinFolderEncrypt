@@ -26,9 +26,18 @@ cp Encrypted /usr/bin/
 
 Recuerda que para poder usar la herramienta, las carpetas han de estar en el **DESKTOP**.
 
+![Pic1](https://user-images.githubusercontent.com/92258683/174485179-6f755a61-5b96-4b58-8b24-5cbd4ae9938d.png)
+
+
 Encrypt -n NombreUsuario -e NombredeCarpeta --> encriptar.
 
+![pic2](https://user-images.githubusercontent.com/92258683/174485181-56d0c87f-6c3e-4498-a881-123730b2473a.png)
+
+
 Encrypt -n NombreUsuario -d NombredeCarpeta --> desencriptar.
+
+![Pic3](https://user-images.githubusercontent.com/92258683/174485184-2408afc5-fbd6-4d28-afa2-c6cfda3a826c.png)
+
 
 ## A tener en cuenta:
 
